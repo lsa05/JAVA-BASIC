@@ -1,6 +1,6 @@
 package ch5;
 //예제5-3
-public class ArraysEx3 {
+public class ArrayEx3 {
 
 	public static void main(String[] args) {
 		int[]arr=new int[5];	//길이 5의 배열

@@ -1,10 +1,18 @@
 package ch11;
 
+<<<<<<< HEAD
 import java.util.*;
 
 class HashMapEx3 {
 	static HashMap phoneBook = new HashMap();
 
+=======
+import java.util.HashMap;
+
+public class HashMapEx3 {
+	static HashMap phoneBook = new HashMap();
+	
+>>>>>>> parent of fa478f3 (Delete HashMapEx3.java)
 	public static void main(String[] args) {
 		addPhoneNo("친구", "이자바", "010-111-1111");
 		addPhoneNo("친구", "김자바", "010-222-2222");
@@ -14,6 +22,7 @@ class HashMapEx3 {
 		addPhoneNo("회사", "박대리", "010-666-6666");
 		addPhoneNo("회사", "이과장", "010-777-7777");
 		addPhoneNo("세탁", "010-888-8888");
+<<<<<<< HEAD
 
 		printList();
 	} // main
@@ -58,3 +67,21 @@ class HashMapEx3 {
 		}
 	} // printList()
 } // class
+=======
+		
+		printList();
+	}
+	
+	static void addPhoneNo(String groupName, String name, String tel) {
+		addGroup(groupName);
+		HashMap map = (HashMap)phoneBook.get(groupName);
+		group.put(tel, name); 	//이름은 중복될 수 있으니 전화번호를 key로 저장
+	}
+	
+	//그룹을 추가하는 메서드
+	static void addGroup(string groupName) {
+		if(!(phoneBook.containsKey))
+	}
+
+}
+>>>>>>> parent of fa478f3 (Delete HashMapEx3.java)

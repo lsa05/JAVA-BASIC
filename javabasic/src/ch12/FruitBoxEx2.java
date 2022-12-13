@@ -1,5 +1,5 @@
 package ch12;
-
+/*
 import java.util.ArrayList;
 
 class Fruit implements Eatable {
@@ -41,3 +41,5 @@ class Box<T> {
 	int size()        { return list.size();  }
 	public String toString() { return list.toString();}
 }
+
+*/

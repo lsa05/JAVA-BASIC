@@ -1,5 +1,5 @@
 package ch11;
-
+/*
 <<<<<<< HEAD
 import java.util.*;
 
@@ -84,4 +84,4 @@ public class HashMapEx3 {
 	}
 
 }
->>>>>>> parent of fa478f3 (Delete HashMapEx3.java)
+>>>>>>> parent of fa478f3 (Delete HashMapEx3.java)*/
